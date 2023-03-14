@@ -1,13 +1,11 @@
 import React, {useState} from 'react';
 import styled from 'styled-components';
 import {NavLink, Routes, Route} from 'react-router-dom';
-import Inicio from './componentes/Inicio'
+import Inicio from './componentes/Inicio';
 import Blog from './componentes/Blog';
 import Tienda from './componentes/Tienda';
 import Error404 from './componentes/Error404';
 import Carrito from './componentes/Carrito';
-
-import './index.css'
 
 const App = () => {
     const productos = [
